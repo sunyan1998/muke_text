@@ -303,12 +303,63 @@
 .consult-page{padding-bottom: 20px;}
 
 
+/*购物车和结算页*/
+/*头部提交流程*/
+.stepBox{width: 410px;margin-top: 25px;}
+.step{width: 400px;height: 20px;background: url(../imges/shopcar-step.png) left top no-repeat;}
+.step-text li{float: left;width: 132px;line-height: 20px;}
+.step-text1{color: #f3e402;font-weight: bold}
+.step-text2{text-align: center;color: #f3e402;font-weight: bold}
+.step-text3{text-align: right;color: #fff;}
+/*收货信息等*/
+.shoppingBox{margin-top: 12px;}
+.padding-left{padding-left: 30px;}
+.shopping-item{border: 1px solid #ccc;margin-bottom: 20px;}
+.shopping-item-tit{height: 30px;line-height: 30px;font-weight: normal;padding-left: 12px;background: url(../imges/shopping-item-tit.jpg) left top repeat-x;border-bottom: 1px solid #e3e3e3;}
+.shopping-list{padding-top: 20px;}
+.shopping-list li{height: 35px;}
+.shopping-list-text{float: left;width: 77px;height: 35px;line-height: 35px;}
+.shopping-list-text em{margin-right: 10px;font-style: normal;color: #f00;}
+.input{margin-top: 6px;padding-left: 10px;border: 1px solid #c2c2c2;width: 100px;height: 22px;line-height: 22px\9;color: #888;font-family: '宋体';}
+.input01{width: 380px;}
+.input001{width: 54px;}
+.input002{width: 90px;}
+.jian{padding: 0 3px;}
+.shopping-list li:last-child{height: 60px;}
+.cart-tel,.input{vertical-align: middle;}
+.confirm{margin-top: 18px;width: 114px;height: 28px;;background: url(../imges/shopping-list-confirm.jpg) left top no-repeat;}
+.payBox{line-height: 40px;padding-bottom: 10px;}
+.radio{position: relative;top: 3px;margin-right: 6px;}
+.pay-text{margin-left: 16px;}
+/*送货清单*/
+.backcar{float: right;padding-right: 35px;font: 12px/30px '宋体';color: #3377ff;}
+.cart-item{float: left;border-bottom: 1px solid #e6e6e6;height: 34px;line-height: 38px}
+.c-name{padding-left: 30px;width: 440px;}
+.c-price{width: 135px;}
+.c-return{width: 135px;}
+.c-num{width: 135px;}
+.c-total{width: 123px;}
+.cart-cont{border-bottom: 1px solid #e6e6e6;}
+.cart-item1{float: left;line-height: 35px}
+.cart-item-shop{width: 90px;height: 100px;}
+.cart-item-img{margin-top: 10px;width: 55px;height: 80px;}
+.c-name-detail p{margin-bottom: 20px;color: #666;}
+.c-name-detail p:last-child{color: #333;}
+.cart-item1:last-child{color: #d70000;}
+
+.cart-sorry-text1{line-height: 40px;;color: #3377ff;}
+.cart-sorry-text2{line-height: 60px;color: #ee0000;}
+.sorry-detail{margin-top: 10px;line-height: 20px;color: #666;}
+/*订单结算*/
+.cart-submit{margin-right: 25px;margin-top: 40px;}
+.cart-submit span{color: #929292;float: right;}
+.cart-submit em{margin: 0 8px;font-style: normal;font-size: 24px;color: #ee0000;}
+.submit-btn{text-align: right;}
+.cart-submit input{margin-top: 15px;margin-bottom: 30px;width: 165px;height: 33px;color: #fff;background-color: #e50007;}
 
 
-
-
-
-
+/*登陆页面*/
+/**/
 
 
 

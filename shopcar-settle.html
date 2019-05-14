@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>电商首页模拟~</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body class="gray">
+    <div class="Header">
+        <div class="Header-top">
+            <div class="comWidth">
+                <div class="top-left fl">
+                    <a href="#" class="collection">收藏慕课</a>
+                </div>
+                <div class="top-right fr">
+                    欢迎来到慕课网！<a href="#">[登录]</a><a href="#">[免费注册]</a>
+                </div>
+            </div>
+        </div>
+        <div class="Header-logo">
+            <div class="comWidth">
+                <div class="logo fl">
+                    <a href="#"><img src="./imges/logo.png" alt="慕课网"></a>
+                </div>
+                <div class="stepBox fr">
+                    <div class="step"></div>
+                    <ul class="step-text">
+                        <li class="step-text1">我的购物车</li>
+                        <li class="step-text2">填写核对订单</li>
+                        <li class="step-text3">订单提交成功</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shoppingBox comWidth">
+        <div class="shopping-item">
+            <h3 class="shopping-item-tit">收货信息</h3>
+            <ul class="shopping-list padding-left">
+                <li><span class="shopping-list-text"><em>*</em>选择地区：</span>
+                    <div class="select fl">
+                        <h3 class="select-h3">海淀区 五环内</h3><span></span>
+                        <ul class="show-select hide">
+                            <li>五道口</li>
+                            <li>五道口</li>
+                            <li>五道口</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><span class="shopping-list-text"><em>*</em>详细地址：</span><input type="text" value="最多输入20个汉字" class="input input01"></li>
+                <li><span class="shopping-list-text"><em>*</em>收 货 人：</span><input type="text" value="最多10个汉字" class="input"></li>
+                <li><span class="shopping-list-text"><em>*</em>手	机：</span><input type="text" value="如15642311" class="input"><span class="cart-tel">&nbsp;&nbsp;或固定电话：</span><input type="text" value="区号" class="input input001"><span class="jian">-</span><input type="text" value="电话号码" class="input input002"><span class="jian">-</span><input type="text" value="分机号" class="input input002"></li>
+                <li><input type="submit" value="" class="confirm"></li>
+            </ul>
+        </div>
+        <div class="shopping-item">
+            <h3 class="shopping-item-tit">支付方式</h3>
+            <div class="payBox padding-left">
+                <input type="radio" name="pay" id="pay1" class="radio"><label for="pay1">微信支付</label><span class="pay-text">用微信扫一扫就能支付！</span><br>
+                <input type="radio" name="pay" id="pay2" class="radio"><label for="pay2">货到付款</label><span class="pay-text">送货上门后再付款，使用现金或刷银行卡。</span>
+            </div>
+        </div>
+        <div class="shopping-item">
+            <h3 class="shopping-item-tit">送货清单<span class="backcar">返回购物车修改</span></h3>
+            <div class="shopping-inner">
+                <div class="shopping-header clearfix">
+                    <div class="cart-item c-name">商品名称</div>
+                    <div class="cart-item c-price">价格</div>
+                    <div class="cart-item c-return">返现</div>
+                    <div class="cart-item c-num">数量</div>
+                    <div class="cart-item c-total">小计</div>
+                </div>
+                <div class="cart-cont clearfix">
+                    <div class="cart-item1 c-name clearfix">
+                        <div class="cart-item-shop fl">
+                            <img src="imges/description-img.png" alt="" class="cart-item-img">
+                        </div>
+                        <div class="c-name-detail fl">
+                            <p>商品描述商品描述商品描述商品描描述</p>
+                            <p>商品描述商品描述商品描商品描述</p>
+                        </div>
+                    </div>
+                    <div class="cart-item1 c-price">￥1459.00</div>
+                    <div class="cart-item1 c-return">￥0.00</div>
+                    <div class="cart-item1 c-num">1</div>
+                    <div class="cart-item1 c-total">￥1459.00</div>
+                </div>
+                <div class="cart-sorry padding-left">
+                    <span class="cart-sorry-text1">若您对包裹有特殊要求，请在此留言</span><br>
+                    <span class="cart-sorry-text2">@ 抱歉，以下商品暂时不能购买，若您对包裹有特殊要求，请在此留言</span>
+                    <div class="clearfix">
+                        <div class="cart-item-shop fl">
+                            <img src="imges/description-img.png" alt="" class="cart-item-img">
+                        </div>
+                        <div class="sorry-detail fl">
+                            <p>商品描述商品描述商品描述...</p>
+                            <p>商品描</p>
+                            <p>商品描述商品</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shopping-item clearfix">
+            <h3 class="shopping-item-tit">订单结算</h3>
+            <div class="cart-submit fr">
+                <span>总计<em>￥1459.00</em></span><br>
+                <div class="submit-btn">
+                    <input type="submit" value="提交订单">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p><a href="">慕课简介</a><i>|</i><a href="">慕课公告</a><i>|</i><a href="">招纳贤士</a><i>|</i><a href="">联系我们</a><i>|</i><a href="">客服热线：400-675-1234</a></p>
+        <p>Copyright © 2006 - 2014 慕课版权所有&nbsp&nbsp&nbsp京ICP备09037834号&nbsp&nbsp&nbsp京ICP证B1034-8373号&nbsp&nbsp&nbsp某市公安局XX分局备案编号：123456789123</p>
+        <p><a href="#"><img src="imges/footer-logo.png" alt="logo"><img src="imges/footer-logo.png" alt="logo"><img src="imges/footer-logo.png" alt="logo"><img src="imges/footer-logo.png" alt="logo"></a></p>
+    </div>
+    
+</body>
+</html>
