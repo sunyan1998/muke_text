@@ -215,7 +215,7 @@
 .minus{border-right: 1px solid #b2b2b2}
 .plus{border-left: 1px solid #b2b2b2}
 .des-input{width: 50px;background: url(../imges/desNum-input.jpg) center center no-repeat;overflow: hidden;}
-.des-input input{width: 100%;height: 32px;text-align: center;line-height: 32px/9;color: #666;}
+.des-input input{width: 100%;height: 32px;text-align: center;line-height: 32px\9;color: #666;}
 .desNum-text{display: inline-block;color: #666;margin-left: 11px;line-height: 35px;}
 .desNum-text em{font-style: normal;color: #fc7700;font-weight: bold;}
 /*加购*/
@@ -327,7 +327,7 @@
 .jian{padding: 0 3px;}
 .shopping-list li:last-child{height: 60px;}
 .cart-tel,.input{vertical-align: middle;}
-.confirm{margin-top: 18px;width: 114px;height: 28px;;background: url(../imges/shopping-list-confirm.jpg) left top no-repeat;}
+.confirm{margin-top: 18px;width: 114px;height: 28px;background: url(../imges/shopping-list-confirm.jpg) left top no-repeat;}
 .payBox{line-height: 40px;padding-bottom: 10px;}
 .radio{position: relative;top: 3px;margin-right: 6px;}
 .pay-text{margin-left: 16px;}
@@ -347,7 +347,7 @@
 .c-name-detail p:last-child{color: #333;}
 .cart-item1:last-child{color: #d70000;}
 
-.cart-sorry-text1{line-height: 40px;;color: #3377ff;}
+.cart-sorry-text1{line-height: 40px;color: #3377ff;}
 .cart-sorry-text2{line-height: 60px;color: #ee0000;}
 .sorry-detail{margin-top: 10px;line-height: 20px;color: #666;}
 /*订单结算*/
@@ -359,7 +359,32 @@
 
 
 /*登陆页面*/
-/**/
+.little-Width{margin: 0 auto;width: 460px;}
+.wel-login{padding-left: 25px;font: 22px/95px 'Microsoft YaHei','微软雅黑';color: #fff;}
+.loginBox{margin-top: 20px;border: 1px solid #e1e1e1;}
+.login-cont{margin: 40px auto;width: 310px;}
+.login-text{color: #999;}
+.checkbox,.checkbox1{position: relative;top: 3px;}
+.checkbox1{margin-left: 15px;}
+.login-input{margin-bottom: 15px;padding-left: 3px;width: 305px;height: 32px;line-height: 32px\9;border: 1px solid #ccc;background: url(../imges/login-person.jpg) right center no-repeat;background-color: #fff;}
+.login-btn{margin: 30px 0;width: 308px;height: 35px;background: url(../imges/login-btn.jpg) left center repeat-x;border: 1px solid #d0e4f9;font-size: 16px;color: #606060;}
+.cooperation-cont li{float: left;}
+.cooperation-cont span{margin: 0 2px;color: #dbdbdb;}
+.free-register{float: right;margin-right: 42px;width: 115px;height: 30px;background-color: #7cbe56;color: #fff;}
+.br-156{height: 155px;}
+
+/*注册页面*/
+.big-Width{width: 630px;margin: 15px auto 0;}
+.regist-cont{margin: 68px auto 30px;width: 378px;}
+.regist li{float: right;}
+.regist-text{font-size: 14px;color: #999;margin-right: 10px;}
+.regist-text em{color: #f00;margin-right: 5px;font-style: normal;}
+.regist-input{margin-bottom: 30px;padding-left: 5px;width: 263px;height: 36px;line-height: 36px\9;border: 1px solid #ccc;color: #999;background: url(../imges/login-person.jpg) right center no-repeat;background-color: #fff;}
+.regist-agree{color: #005aa0;margin-right: 85px;}
+.regist-btn{margin-right: 10px;width: 272px;height: 35px;border-color: #f8f8f8 #f6f6f6 #ddd;}
+.br-115{height: 115px;}
+
+
 
 
 
