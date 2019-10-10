@@ -1,5 +1,7 @@
 .gray{background-color: #f7f7f7}
 .grey{background-color: #f3f3f3;}
+
+/*首页*/
 /*头部*/
 /*收藏慕课*/
 .Header-top{height: 30px;background-color: #f7f7f7;line-height: 30px}
@@ -196,7 +198,7 @@
 .des-money{font-size: 22px;color: #d70000}
 .des-money em{font-style: normal;font-size: 12px;}
 .des-hg{padding-top: 6px;display: inline-block;color: #666;font-family: '宋体';line-height: 20px;}
-.hg-icon{margin-right: 4px;display: inline-block;float: left;width: 55px;height: 18px;text-indent: 16px;font-style: normal;color: #fff;background: url(../imges/hg-icon.png) left center no-repeat;}
+.hg-icon{margin-right: 4px;display: inline-block;width: 55px;height: 18px;text-indent: 16px;font-style: normal;color: #fff;background: url(../imges/hg-icon.png) left center no-repeat;}
 .des-hg em{float: left;font-style: normal;line-height: 18px;}
 /*送货区*/
 .select-h3{color: #666;font-family: '宋体';}
@@ -383,26 +385,6 @@
 .regist-agree{color: #005aa0;margin-right: 85px;}
 .regist-btn{margin-right: 10px;width: 272px;height: 35px;border-color: #f8f8f8 #f6f6f6 #ddd;}
 .br-115{height: 115px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
